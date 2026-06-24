@@ -7,7 +7,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="لافيت مخزون">
-  <title>لافيت مخزون - نظام الاداره المحدث</title>
+  <title>لافيت موظفين - إدارة الموارد البشريه</title>
   <link rel="manifest" id="pwaManifest" href="data:application/manifest+json,{}">
   <script>
     (function(){
@@ -141,7 +141,7 @@
     // ===== Load App in Iframe =====
     (function(){
       var frame=document.getElementById('appFrame');
-      var baseUrl='https://script.google.com/macros/s/AKfycbywJ35XYLXlSMS2CII1xOE5KJRWHOv_QmokSELIWWc2fBSTrAuheGwoSxCVTT2O7YZa/exec';
+      var baseUrl='https://script.google.com/macros/s/AKfycbz3cuuYSB7ZdJEjgyM0f_7Lt41RwoU6m7uEyzYzZR1qmC9rSq7II2BWi866SdXBSx9Sxg/exec';
       var params=new URLSearchParams(window.location.search);
       var token=params.get('token');
       frame.src=token?baseUrl+'?token='+encodeURIComponent(token):baseUrl;
